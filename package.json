@@ -1,0 +1,25 @@
+{
+  "name": "lcf2025",
+  "version": "1.0.0",
+  "description": "LCF 2025 WordPress theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass lib/scss:lib/css --style=compressed",
+    "watch": "sass --watch lib/scss:lib/css --style=compressed",
+    "start": "npm run watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukecyrfoundation/lcf_2025.git"
+  },
+  "author": "Mark Carlucci",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  },
+  "devDependencies": {
+    "sass": "^1.32.0"
+  }
+}

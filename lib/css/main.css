@@ -1,0 +1,82 @@
+:root {
+    --color-black: #111111;
+    --color-golden: #EC9320;
+    --color-golden-lesser: #D4932F;
+    --color-grey: #A5A5A5;
+    --color-blue: #2A4061;
+    --color-navy: #1A273B;
+    --color-white: #FFFFFF;
+}
+
+body { font-family: 'Lato', sans-serif; }
+
+/* Fonts */
+.font-montserrat { font-family: 'Montserrat', sans-serif; }
+.font-lato { font-family: 'Lato', sans-serif; }
+
+/* Header */
+.header-logo {fill: var(--color-white);}
+.logo:hover .header-logo {fill: var(--color-golden);}
+.header-nav {color: var(--color-white);}
+.header-nav:hover {color: var(--color-golden);}
+
+.header-donate {background-color: var(--color-golden);color: var(--color-white);}
+.header-donate:hover {background-color: var(--color-golden-lesser);color: var(--color-black);}
+
+/* Secondary Nav */
+.second-nav {color: var(--color-white);}
+.second-nav:hover {color: var(--color-black);}
+.second-nav-special {background: var(--color-navy); color: var(--color-golden);}
+.second-nav-special:hover {color: var(--color-white);}
+
+/* Mobile Menu Button */
+.btn-menu,
+.btn-menu:hover,
+.btn-menu:focus,
+.btn-menu:active,
+.btn-menu:focus-visible {
+    color: var(--color-white);
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+/* CARDS */
+.text-color-white {color: var(--color-white);}
+.card-text img {max-width: 100%; height: auto; display: block; object-fit: contain; } /* Make sure images don't overflow */
+.title-center {text-align: center;}
+
+.card-hover {
+    transition: box-shadow 0.3s ease;
+}
+.card-hover:hover {
+    box-shadow: 0 0.4rem 0.75rem rgba(0, 0, 0, 0.1);
+}
+
+/* Title color on hover */
+.card-hover:hover .card-title {
+    color: var(--color-golden);
+    transition: color 0.3s ease;
+}
+
+/* BLOCKQUOTE */
+blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--color-black);
+    border-left: 5px solid var(--color-golden);
+    padding: 1rem 1rem 0.05rem 1rem;
+    margin: 1.5rem 0;
+    background-color: var(--color-grey);
+    border-radius: 0.25rem;
+}
+
+blockquote footer {
+    font-size: 1rem;
+    text-align: right;
+    margin-top: 0.5rem;
+}
+
+/* FOOTER */
+.footer-nav-special {color: var(--color-golden);border-bottom: 1px solid var(--color-white);}
+.footer-nav-special:hover {color: var(--color-white);border-bottom: 1px solid var(--color-golden);}

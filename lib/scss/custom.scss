@@ -1,0 +1,24 @@
+// Import required functions and variables
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+// Define your custom colors
+$custom-colors: (
+        "black": #111111,
+        "golden": #EC9320,
+        "golden-lesser": #D4932F,
+        "grey": #A5A5A5,
+        "blue": #2A4061,
+        "navy": #1A273B,
+        "white": #FFFFFF
+);
+
+// Merge custom colors with existing theme colors
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Custom styles
+.hover-golden:hover {
+  color: var(--bs-golden) !important;
+}
