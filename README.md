@@ -46,8 +46,8 @@ This project follows a controlled modernization approach:
 - Lighthouse / PageSpeed Insights
 
 ## Build Commands
-Run these from the repo root; theme source and build tooling live under `src/`.
-- npm run install:src
+Run these from `src/` (the Node workspace for this repo).
+- npm ci
 - npm run build
 - npm run watch
 
