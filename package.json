@@ -1,0 +1,10 @@
+{
+  "name": "lcf2026-root",
+  "private": true,
+  "scripts": {
+    "install:src": "cd src && npm install",
+    "build": "cd src && npm run build",
+    "watch": "cd src && npm run watch",
+    "test": "cd src && npm run test"
+  }
+}
